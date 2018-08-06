@@ -1,10 +1,9 @@
-# api_cek_resi_jne_pos_tiki_wahana
-Simple Api for check resi JNE, POS, TIKI, Wahana with PHP
+# API Cek Resi JNE POS TIKI WAHANA
 
-This is simple api for check resi <b>jne</b>, <b>pos</b>, <b>tiki</b> and <b>wahana</b>
+<p>This is simple api for check resi <b>jne</b>, <b>pos</b>, <b>tiki</b> and <b>wahana</b></p>
 
 <h5>Usage</h5>
-You must send two params 
+<p>You must send two params</p>
 <table>
     <tr>
         <td><strong>Params</strong></td>
