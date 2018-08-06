@@ -2,7 +2,7 @@
 include('simple_html_dom.php');
 date_default_timezone_set('Asia/Bangkok');
 
-if((isset($_GET['courier']) && !empty($_GET['courier'])) && (isset($_GET['resi']) && !empty($_GET['resi'])))  {
+if((isset($_GET['courier']) && !empty($_GET['courier'])) && (isset($_GET['resi']) && !empty($_GET['resi']))) {
     $courier = $_GET["courier"];
     $resi = $_GET["resi"];
 
@@ -21,7 +21,7 @@ if((isset($_GET['courier']) && !empty($_GET['courier'])) && (isset($_GET['resi']
       $list = $html->find('.checkpoint');
 
       // time out handler
-      if (empty($html)) { 
+      if (empty($html)) {
         $data['status'] = 500;
         $data['info'] = "request time out";
         $data = json_encode($data);
@@ -69,10 +69,10 @@ if((isset($_GET['courier']) && !empty($_GET['courier'])) && (isset($_GET['resi']
         $data['info'] = "data not found";
         $data = json_encode($data);
         echo $data;
-
-        $html->clear();
-        unset($html);
       }
+
+      $html->clear();
+      unset($html);
    }
 } else {
   $data['status'] = 500;
