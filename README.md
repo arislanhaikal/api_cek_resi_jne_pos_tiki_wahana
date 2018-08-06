@@ -12,5 +12,5 @@ You must send two params
     </tr>
 </table>
 
-<h5>Example<h5>
+<h5>Example</h5>
 <code>http://localhost/cekresi_api/?courier=jne&resi=0771971801505008</code>
