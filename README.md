@@ -10,10 +10,6 @@ You must send two params
         <td>courier<td>
         <td>courier name (jne, pos, tiki, wahana)</td>
     </tr>
-    <tr>
-        <td>resi<td>
-        <td>your resi number</td>
-    </tr>
 </table>
 
 <h5>Example<h5>
