@@ -7,10 +7,6 @@ This is simple api for check resi <b>jne</b>, <b>pos</b>, <b>tiki</b> and <b>wah
 You must send two params 
 <table>
     <tr>
-        <td>Params</td>
-        <td>Desc</td>
-    </tr>
-    <tr>
         <td>courier<td>
         <td>courier name (jne, pos, tiki, wahana)</td>
     </tr>
